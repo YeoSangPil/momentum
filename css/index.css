@@ -1,6 +1,10 @@
 body {
   background-color: #2c3e50;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .form,
@@ -29,4 +33,12 @@ body {
   height: 100%;
   z-index: -1;
   animation: fadeIn 0.5s ease-in-out;
+}
+
+.clock-view {
+  margin-top: 15%;
+}
+
+.clock-view__text {
+  font-size:150px;
 }
